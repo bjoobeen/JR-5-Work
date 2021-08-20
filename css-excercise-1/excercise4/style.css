@@ -1,0 +1,16 @@
+body {
+    padding: .8em;
+}
+p {
+    border-style:solid;color: purple;
+}
+li {
+    display: inline;
+    border-style: solid; color: blue;
+}
+.block {
+    display: block;
+}
+span {
+    background-color: #FFFF00;
+}

@@ -1,0 +1,48 @@
+body {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.nav-bar{
+    display: flex;
+}
+.top-of-page-container {
+    display: block;
+    align-items:center;
+    font-weight: 300 !important;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 50%;
+    height: auto;
+}
+
+.disabled {
+    color: lightgray;
+}
+.disabled:hover {
+    color: lightgray;
+}
+.no-decoration {
+    text-decoration: none;
+}
+
+.no-pointer {
+    cursor: default;
+}
+.padding-10px {
+    padding: 10px;
+}
+/* Medium devices (landscape tablets, 768px and below) */
+@media only screen and (max-width: 767px) {
+  .navigation {
+      visibility: hidden;
+  }
+  
+}
+/* Medium devices (landscape tablets, 768px and above) */
+@media only screen and (min-width: 768px) {
+    .hidden-button {
+        visibility: hidden;
+    }
+  }
+

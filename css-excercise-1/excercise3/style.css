@@ -1,0 +1,18 @@
+#main {
+    background-color: lightgray;
+}
+.item1 {
+    color: blueviolet;
+}
+.item2 {
+    color: black;
+}
+.p1, .p2 {
+    color: maroon;
+}
+.p1 {
+    font-size: 30px;
+}
+#header {
+    display: none;
+}

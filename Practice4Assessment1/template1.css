@@ -1,0 +1,60 @@
+.dotted-blue {
+    border: 2px dotted blue;
+  }
+  
+  .dotted-red {
+    border: 2px dotted red;
+  }
+  
+  .container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10% auto 10%;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .col {
+    height: 33%;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  body {
+    background-color: tan;
+    color: black;
+  }
+  
+  /* On screens that are 992px wide or less, the background color is blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+      color: white;
+    }
+  }
+  
+  @media screen and (max-width: 100px) {
+    body {
+      background-color: olive;
+      color: white;
+    }
+  }
+  
+  img {
+    max-width: 400px;
+    height: auto;
+  }
